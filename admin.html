@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>登陆页</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <style>
+        * {
+            margin:0;
+            padding:0;
+        }
+        body {
+            font-family:Arial, Helvetica, sans-serifial;
+            font-size:12px;
+            text-align: center;
+            background-color: #010623;
+        }
+        #container {
+            margin:50px auto;
+            width:800px;
+            text-align: left;
+        }
+        #content {
+            width:800px;
+            height:600px;
+            background-image: url("bj.jpg");
+        }
+        .zhong {
+            margin:0 auto;
+
+            padding-top:150px;
+            width:400px;
+            height:304px;
+            text-align: center;
+        }
+        .gl {
+            float:left;
+            width:402px;
+            height:60px;
+            text-align: center;
+            color:#ffffff;
+            background-color:#010831;
+        }
+        .gl p {
+            font-size:20px;
+            font-weight:bolder;
+            padding:18px 200px 18px 0px;
+        }
+        .dl {
+            float:left;
+            width:400px;
+            height:240px;
+            border:1px solid;
+            background-color:#f2f2f2;
+        }
+        .dl .bd{
+            font-size:10px;
+        }
+        .dl .bd input{
+            background-color:#f0eef0;
+        }
+        .dl input {
+            border: 1px solid #dedede;
+            -moz-border-radius: 5px;      /* Gecko browsers */
+            -webkit-border-radius: 5px;   /* Webkit browsers */
+            border-radius:5px;            /* W3C syntax */
+        }
+        .dl .yh {
+            margin:25px auto;
+        }
+        .dl .yhm {
+            padding-left:20px;
+            width:320px;
+            height:40px;
+            background-image: url("yhm.jpg");
+            background-repeat: no-repeat;
+            background-position:300px 10px;
+        }
+        .dl .mm {
+            padding-left:20px;
+            width:320px;
+            height:40px;
+            background-image: url("mm.jpg");
+            background-repeat: no-repeat;
+            background-position:300px 10px;
+        }
+        .tijiao {
+            padding-top:30px;
+            height:40px;
+        }
+        .tijiao a { 
+            border:1px solid;
+            background-color:#010831;
+            display:block;
+            padding:10px 25px;
+            color:#ffffff;
+            float:left;
+            margin-left:30px;
+        }
+        .tijiao a,a:active {
+            text-decoration: none;;
+        }
+        .tijiao .wj {
+            margin:10px 0px 0px 30px;
+            font-size:10px;
+            float:left;
+            color:#b5b2b2;
+        };
+    </style>
+</head>
+<body>
+    <div id="container">
+    <div id="content">
+        <div class="zhong">
+            <div class="gl"><p>whphp管理系统</p></div>
+            <div class="dl">
+                <form class="bd">
+                    <div class="yh"><input type="text" name="name" class="yhm" placeholder="用户名"/></div>
+                    <div><input type="password" name="password" class="mm" placeholder="密码" /></div>
+                    <div class="tijiao">
+                        <a href="">登&nbsp;&nbsp;陆</a>
+                        <div class="wj">忘记密码?</div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
